@@ -16,13 +16,17 @@
 .ContentPane {
     justify-content: space-between;
     display: flex;
-    width: 50%;
-    flex-grow: 1;
+    width: 60%;
     flex-direction: row;
 }
 
 .Logo {
     width: 50%;
+}
+
+.Introduction {
+    width: 50%;
+    color: #385c84;
 }
 
 .Subtitle {
