@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/leifhacks/static/css/main.fbc7e4a5.chunk.css",
-    "main.js": "/leifhacks/static/js/main.5915ae2a.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.5915ae2a.chunk.js.map",
+    "main.css": "/leifhacks/static/css/main.516184a3.chunk.css",
+    "main.js": "/leifhacks/static/js/main.4a9352bf.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.4a9352bf.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
-    "static/js/2.79e28cc9.chunk.js": "/leifhacks/static/js/2.79e28cc9.chunk.js",
-    "static/js/2.79e28cc9.chunk.js.map": "/leifhacks/static/js/2.79e28cc9.chunk.js.map",
+    "static/js/2.f06d424b.chunk.js": "/leifhacks/static/js/2.f06d424b.chunk.js",
+    "static/js/2.f06d424b.chunk.js.map": "/leifhacks/static/js/2.f06d424b.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.6a85d346b5b481a461f3c47bc38aa3db.js": "/leifhacks/precache-manifest.6a85d346b5b481a461f3c47bc38aa3db.js",
+    "precache-manifest.bf727a3b22c8a88e0085608bbaaabf22.js": "/leifhacks/precache-manifest.bf727a3b22c8a88e0085608bbaaabf22.js",
     "service-worker.js": "/leifhacks/service-worker.js",
-    "static/css/main.fbc7e4a5.chunk.css.map": "/leifhacks/static/css/main.fbc7e4a5.chunk.css.map",
-    "static/js/2.79e28cc9.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.79e28cc9.chunk.js.LICENSE.txt",
-    "static/media/Leifhacks_Logo.jpg": "/leifhacks/static/media/Leifhacks_Logo.c454deb2.jpg"
+    "static/css/main.516184a3.chunk.css.map": "/leifhacks/static/css/main.516184a3.chunk.css.map",
+    "static/js/2.f06d424b.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.f06d424b.chunk.js.LICENSE.txt",
+    "static/media/Leifhacks_Logo.png": "/leifhacks/static/media/Leifhacks_Logo.3a252de7.png",
+    "static/media/kitchen.png": "/leifhacks/static/media/kitchen.ecc202a6.png",
+    "static/media/living_room.png": "/leifhacks/static/media/living_room.e2d929f0.png",
+    "static/media/treehouse.png": "/leifhacks/static/media/treehouse.05ee47da.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a5a9cab2.js",
-    "static/js/2.79e28cc9.chunk.js",
-    "static/css/main.fbc7e4a5.chunk.css",
-    "static/js/main.5915ae2a.chunk.js"
+    "static/js/2.f06d424b.chunk.js",
+    "static/css/main.516184a3.chunk.css",
+    "static/js/main.4a9352bf.chunk.js"
   ]
 }
