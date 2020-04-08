@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/leifhacks/static/css/main.516184a3.chunk.css",
-    "main.js": "/leifhacks/static/js/main.4a9352bf.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.4a9352bf.chunk.js.map",
+    "main.css": "/leifhacks/static/css/main.dd1902e7.chunk.css",
+    "main.js": "/leifhacks/static/js/main.d110b25a.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.d110b25a.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
     "static/js/2.f06d424b.chunk.js": "/leifhacks/static/js/2.f06d424b.chunk.js",
     "static/js/2.f06d424b.chunk.js.map": "/leifhacks/static/js/2.f06d424b.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.bf727a3b22c8a88e0085608bbaaabf22.js": "/leifhacks/precache-manifest.bf727a3b22c8a88e0085608bbaaabf22.js",
+    "precache-manifest.b2028a5258d78e751ea5eb99ca07cb2c.js": "/leifhacks/precache-manifest.b2028a5258d78e751ea5eb99ca07cb2c.js",
     "service-worker.js": "/leifhacks/service-worker.js",
-    "static/css/main.516184a3.chunk.css.map": "/leifhacks/static/css/main.516184a3.chunk.css.map",
+    "static/css/main.dd1902e7.chunk.css.map": "/leifhacks/static/css/main.dd1902e7.chunk.css.map",
     "static/js/2.f06d424b.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.f06d424b.chunk.js.LICENSE.txt",
     "static/media/Leifhacks_Logo.png": "/leifhacks/static/media/Leifhacks_Logo.3a252de7.png",
     "static/media/kitchen.png": "/leifhacks/static/media/kitchen.ecc202a6.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5a9cab2.js",
     "static/js/2.f06d424b.chunk.js",
-    "static/css/main.516184a3.chunk.css",
-    "static/js/main.4a9352bf.chunk.js"
+    "static/css/main.dd1902e7.chunk.css",
+    "static/js/main.d110b25a.chunk.js"
   ]
 }
