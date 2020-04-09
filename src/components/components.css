@@ -18,3 +18,18 @@
 .ImageButton img {
     width: 100%;
 }
+
+.HexagonalPanel {
+    position: relative;
+    width: 500px;
+    height:500px;
+}
+
+.HexagonalPanelCell {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:50%;
+}
