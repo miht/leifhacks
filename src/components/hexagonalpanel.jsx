@@ -8,23 +8,25 @@ import treehouseImage from '../images/treehouse.png';
 
 function HexagonalPanel() {
     return <div className="HexagonalPanel">
-        <HexagonalPanelCell position={0} src={kitchenImage} />
-        <HexagonalPanelCell position={1} src={treehouseImage}/>
-        <HexagonalPanelCell position={2} src={livingRoomImage} />
+        <HexagonalPanelCell title="Work" position={0} src={kitchenImage} />
+        <HexagonalPanelCell title="Hobby" position={1} src={treehouseImage}/>
+        <HexagonalPanelCell title="Leisure" position={2} src={livingRoomImage} />
     </div>;
 }
 
 export default HexagonalPanel;
 
 const styles = {
-    0 :{left: '25%', top: '6%'},     //top
-    1: { left: '0%', bottom: '0%' },  //bottomleft
-    2: { right: '0%', bottom: '0%'}   //bottomright
+    0: { left: '50%', top: '6.25%', transform: 'translate(-50%, 6.25%)'},     //top
+    1: { left: '0%', bottom: '0%', transform: 'translate(0%, 0%)'},  //bottomleft
+    2: { left: '100%', bottom: '0%', transform: 'translate(-100%, 0%)'}   //bottomright
 };
 
 function HexagonalPanelCell(props) {
     return <div className="HexagonalPanelCell" style={{... styles[props.position]}}>
-            <img src={props.src} style={ { width: '125%'} }></img>
+        <div className="HexagonalButton" style={ { ... {backgroundImage: `url(${props.src})`} } }>
+            <p className="HexagonalButtonLabel">{props.title}</p>
         </div>
+    </div>
     ;
 }
