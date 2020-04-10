@@ -17,17 +17,55 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    width: 80%;
+    width: 100%;
 }
-
 
 .Logo {
     width: 30%;
 }
 
-.Introduction {
-    width: 50%;
+.Paragraph {
     color: #385c84;
+    width: 45%;
+    text-align: justify;
+}
+
+.Header {
+    color: white;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.Introduction {
+    display: flex;
+    width: 45%;
+    color: #385c84;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.Introduction div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Introduction p {
+    /* width: 70%; */
+    text-align: justify;
+    margin: 2%;
+}
+
+.ProfilePicture {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.Signature {
+    width: 100px;
+    margin: 2%;
 }
 
 .Subtitle {
@@ -105,6 +143,57 @@
     transform: scale(1.03);
 }
 
+.SkillsPane {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35%;
+}
+
+.SkillsPane p {
+    margin: .25em .25em;
+}
+
+.SkillItem {
+    margin: 0%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.ReferencesPane {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 35%;
+    margin-bottom: 10%;
+}
+
+.ReferenceItem {
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.ReferenceItem div {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.ReferenceItem p {
+    margin: 1%;
+    color: white;
+}
+
+.ReferenceItem img {
+    width: 100px;
+    height: 100px;
+}
 
 .ContactSectionPane {
     display: flex;

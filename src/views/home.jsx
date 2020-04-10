@@ -5,6 +5,9 @@ import ImageButton from '../components/imageButton';
 import HexagonalPanel from '../components/hexagonalpanel';
 import LinkLabel from '../components/linkLabel';
 import ProjectsPane from '../components/projectspane';
+import SkillsPane from '../components/skillspane';
+import ReferencesPane from '../components/referencespane';
+
 
 //Images
 import logo from '../images/Leifhacks_Logo.png';
@@ -12,6 +15,11 @@ import artstationIcon from '../images/artstation-logo.png';
 import linkedinIcon from '../images/linkedin-logo.png';
 import githubIcon from '../images/github-logo.png';
 import buyMeACoffeeIcon from '../images/buymeacoffee.png';
+
+//Profile image
+import profileImage from '../images/profileImage.png';
+import signature from '../images/signature.png';
+
 //Project Images
 import pImage1 from '../images/Project1.png';
 import pImage2 from '../images/Project2.png';
@@ -24,6 +32,10 @@ import pImageGuardianSymphony from '../images/Project_GuardianSymphony.png';
 import pImageHelios from '../images/Project_Helios.png';
 import pImageStore from '../images/Project_Store.png';
 import pImageRubeGoldberg from '../images/Project_RubeGoldberg.png';
+import pImageCodenameRagnarok from '../images/Project_CodenameRagnarok.png';
+
+//Reference images
+import rImagePlaceholder from '../images/reference_Placeholder.png';
 
 
 const projects = [
@@ -36,8 +48,58 @@ const projects = [
     { title: "Graphics Engine", tag: "Qt/C++", src: pImageHelios  },
     { title: "Store", tag: "Unity/Blender", src: pImageStore  },
     { title: "Rube Goldberg", tag: "Unity/Blender", src: pImageRubeGoldberg  },
-    { title: "Title", tag: "Tag", src: pImage2  },
-    { title: "Title", tag: "Tag", src: pImage1  },
+    { title: "Codename Ragnarok", tag: "Unity/Blender", src: pImageCodenameRagnarok  },
+    { title: "Title", tag: "Tag", src: pImage3  },
+];
+
+const skills = [
+    "Javascript",
+    "Node.js",
+    "React Native",
+    "C/C#/C++",
+    "Python",
+    "Clojure",
+    "Java",
+    "Git",
+    "Swift",
+    "WebGL",
+    "MongoDB",
+    "GraphQL",
+    "PostgreSQL",
+    "GLSL/HLSL",
+    "Perl"
+];
+
+const tools = [
+    "Unity",
+    "Blender",
+    "Visual Studio",
+    "Unreal Engine",
+    "Qt Creator",
+    "Photoshop"
+];
+
+const references = [
+    {   name: "Name Namesson", 
+        quote:`Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.`,
+        src: rImagePlaceholder,
+    },
+    {
+        name: "Name Namesson",
+        quote: `Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.`,
+        src: rImagePlaceholder,},
+    {
+        name: "Name Namesson",
+        quote: `Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.`,
+        src: rImagePlaceholder,},
+    {
+        name: "Name Namesson",
+        quote: `Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.,`,
+        src: rImagePlaceholder,}
 ];
 
 function Home() {
@@ -48,23 +110,43 @@ function Home() {
                 <p className="Subtitle">A brief overview of my work</p>
             </div>
             <div className="ContentPane">
-                <p className="Introduction">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                </p>
-                <p className="Introduction">Keepum scrollum foria morum</p>
+                <div className="Introduction">
+                        <img className="ProfilePicture" src={profileImage}/>
+                    <div>
+                        <p>
+                        Hi, and thanks for stopping by!
+                        </p>
+                        <p>
+                            Learn more about me by reading about my projects.
+                            You'll find my contact details at the bottom of the page.
+                        </p>
+                        <p>Enjoy!</p>
+
+                        <img className="Signature" src={signature} />
+                        <p>Leif T. Sundkvist</p>
+                    </div>    
+                </div>
                 <HexagonalPanel/>
-                <p className="Introduction">
+                <p className="Header">FOREWORD</p>
+                <p className="Paragraph">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                 </p>
-                <p className="Introduction">
-                    Have a look at my projects
-                </p>
+                <p className="Header">PROJECTS</p>
             </div>
-
             
             <ProjectsPane projects={projects}>
 
             </ProjectsPane>
+
+            <p className="Header">SKILLS</p>
+            <SkillsPane skills={skills}/>
+
+            <p className="Header">TOOLS</p>
+            <SkillsPane skills={tools} />
+
+            <p className="Header">REFERENCES</p>
+            <ReferencesPane references={references}/>
+
 
             <div className="ContactPane">
 
