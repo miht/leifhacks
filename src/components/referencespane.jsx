@@ -9,7 +9,7 @@ function ReferencesPane(props) {
             <p style={{textAlign: alignment}}>
                 <i>{`"${reference.quote}"`}</i>
             </p>
-            <p style={{ textAlign: alignment }}>
+            <p style={{ textAlign: alignment=== 'left' ? 'right' : 'left' }}>
                 {`-${reference.name}`}
             </p>
         </div>;

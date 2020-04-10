@@ -107,7 +107,7 @@ function Home() {
         <div className="Home">
             <div className="TitlePane">
                 <img src={logo} alt="Logo" className="Logo"></img>
-                <p className="Subtitle">A brief overview of my work</p>
+                <p className="Subtitle">Doing what I like the most</p>
             </div>
             <div className="ContentPane">
                 <div className="Introduction">
