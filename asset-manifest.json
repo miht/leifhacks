@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/leifhacks/static/css/main.0a2691a3.chunk.css",
-    "main.js": "/leifhacks/static/js/main.6a8bf2df.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.6a8bf2df.chunk.js.map",
+    "main.css": "/leifhacks/static/css/main.a3b8d400.chunk.css",
+    "main.js": "/leifhacks/static/js/main.0b8c9d23.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.0b8c9d23.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
-    "static/js/2.382f99a8.chunk.js": "/leifhacks/static/js/2.382f99a8.chunk.js",
-    "static/js/2.382f99a8.chunk.js.map": "/leifhacks/static/js/2.382f99a8.chunk.js.map",
+    "static/js/2.248a117b.chunk.js": "/leifhacks/static/js/2.248a117b.chunk.js",
+    "static/js/2.248a117b.chunk.js.map": "/leifhacks/static/js/2.248a117b.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.79e637bc915f9cac3d2b1be582db2eba.js": "/leifhacks/precache-manifest.79e637bc915f9cac3d2b1be582db2eba.js",
+    "precache-manifest.e9e850e4b77f96616fe0408c989ac2db.js": "/leifhacks/precache-manifest.e9e850e4b77f96616fe0408c989ac2db.js",
     "service-worker.js": "/leifhacks/service-worker.js",
-    "static/css/main.0a2691a3.chunk.css.map": "/leifhacks/static/css/main.0a2691a3.chunk.css.map",
-    "static/js/2.382f99a8.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.382f99a8.chunk.js.LICENSE.txt",
+    "static/css/main.a3b8d400.chunk.css.map": "/leifhacks/static/css/main.a3b8d400.chunk.css.map",
+    "static/js/2.248a117b.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.248a117b.chunk.js.LICENSE.txt",
     "static/media/Leifhacks_Logo.png": "/leifhacks/static/media/Leifhacks_Logo.3a252de7.png",
     "static/media/Project1.png": "/leifhacks/static/media/Project1.7751cdb9.png",
     "static/media/Project2.png": "/leifhacks/static/media/Project2.c8233917.png",
     "static/media/Project3.png": "/leifhacks/static/media/Project3.dedbec8a.png",
+    "static/media/Project_CodenameRagnarok.png": "/leifhacks/static/media/Project_CodenameRagnarok.dfdb6fd6.png",
     "static/media/Project_GGJ2019.png": "/leifhacks/static/media/Project_GGJ2019.3e75b005.png",
     "static/media/Project_GuardianSymphony.png": "/leifhacks/static/media/Project_GuardianSymphony.b0eadfe3.png",
     "static/media/Project_Helios.png": "/leifhacks/static/media/Project_Helios.105a1663.png",
@@ -30,12 +31,15 @@
     "static/media/kitchen.png": "/leifhacks/static/media/kitchen.e4d56daf.png",
     "static/media/linkedin-logo.png": "/leifhacks/static/media/linkedin-logo.b01a800c.png",
     "static/media/living_room.png": "/leifhacks/static/media/living_room.9a679a04.png",
+    "static/media/profileImage.png": "/leifhacks/static/media/profileImage.faf73214.png",
+    "static/media/reference_Placeholder.png": "/leifhacks/static/media/reference_Placeholder.1f0b1ae8.png",
+    "static/media/signature.png": "/leifhacks/static/media/signature.bb7b489e.png",
     "static/media/treehouse.png": "/leifhacks/static/media/treehouse.d79abe83.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a5a9cab2.js",
-    "static/js/2.382f99a8.chunk.js",
-    "static/css/main.0a2691a3.chunk.css",
-    "static/js/main.6a8bf2df.chunk.js"
+    "static/js/2.248a117b.chunk.js",
+    "static/css/main.a3b8d400.chunk.css",
+    "static/js/main.0b8c9d23.chunk.js"
   ]
 }

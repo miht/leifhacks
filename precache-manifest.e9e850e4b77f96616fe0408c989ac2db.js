@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fab8412ee8d84f97e6b2fefe5558d63a",
+    "revision": "c34ba3cab3bc79c7d093f460251fcda4",
     "url": "/leifhacks/index.html"
   },
   {
-    "revision": "615d54660b19220da994",
-    "url": "/leifhacks/static/css/main.0a2691a3.chunk.css"
+    "revision": "5a7912f41e6bd664ee37",
+    "url": "/leifhacks/static/css/main.a3b8d400.chunk.css"
   },
   {
-    "revision": "5a285e8160bef4af61df",
-    "url": "/leifhacks/static/js/2.382f99a8.chunk.js"
+    "revision": "b44d6c5f69fe3660e292",
+    "url": "/leifhacks/static/js/2.248a117b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/leifhacks/static/js/2.382f99a8.chunk.js.LICENSE.txt"
+    "url": "/leifhacks/static/js/2.248a117b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "615d54660b19220da994",
-    "url": "/leifhacks/static/js/main.6a8bf2df.chunk.js"
+    "revision": "5a7912f41e6bd664ee37",
+    "url": "/leifhacks/static/js/main.0b8c9d23.chunk.js"
   },
   {
     "revision": "f829987a47b634f2a715",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dedbec8a3f53598713bfddcd61b72163",
     "url": "/leifhacks/static/media/Project3.dedbec8a.png"
+  },
+  {
+    "revision": "dfdb6fd66dc3a8d0d78420f3a3b4cec6",
+    "url": "/leifhacks/static/media/Project_CodenameRagnarok.dfdb6fd6.png"
   },
   {
     "revision": "3e75b0053fe739b7bc92a1a64c4396aa",
@@ -94,6 +98,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a679a0400ef8f23c9846ee8cfd722f6",
     "url": "/leifhacks/static/media/living_room.9a679a04.png"
+  },
+  {
+    "revision": "faf7321456d7fcd8b49a3e73b004383e",
+    "url": "/leifhacks/static/media/profileImage.faf73214.png"
+  },
+  {
+    "revision": "1f0b1ae8fa988dc0927d2d84136fe75e",
+    "url": "/leifhacks/static/media/reference_Placeholder.1f0b1ae8.png"
+  },
+  {
+    "revision": "bb7b489ee54717d8be08864d3a038126",
+    "url": "/leifhacks/static/media/signature.bb7b489e.png"
   },
   {
     "revision": "d79abe835d925b79aa850c9febbf19d2",
