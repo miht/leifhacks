@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c34ba3cab3bc79c7d093f460251fcda4",
+    "revision": "f1753c8fb32af20ac49c6fd04e875eaa",
     "url": "/leifhacks/index.html"
   },
   {
-    "revision": "5a7912f41e6bd664ee37",
-    "url": "/leifhacks/static/css/main.a3b8d400.chunk.css"
+    "revision": "517a86a844c46fb21fb5",
+    "url": "/leifhacks/static/css/main.d423a9d7.chunk.css"
   },
   {
     "revision": "b44d6c5f69fe3660e292",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leifhacks/static/js/2.248a117b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a7912f41e6bd664ee37",
-    "url": "/leifhacks/static/js/main.0b8c9d23.chunk.js"
+    "revision": "517a86a844c46fb21fb5",
+    "url": "/leifhacks/static/js/main.fc96d4b5.chunk.js"
   },
   {
     "revision": "f829987a47b634f2a715",
