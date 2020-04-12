@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/leifhacks/static/css/main.d423a9d7.chunk.css",
-    "main.js": "/leifhacks/static/js/main.fc96d4b5.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.fc96d4b5.chunk.js.map",
+    "main.css": "/leifhacks/static/css/main.3df3b28f.chunk.css",
+    "main.js": "/leifhacks/static/js/main.a0ff84ac.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.a0ff84ac.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
-    "static/js/2.248a117b.chunk.js": "/leifhacks/static/js/2.248a117b.chunk.js",
-    "static/js/2.248a117b.chunk.js.map": "/leifhacks/static/js/2.248a117b.chunk.js.map",
+    "static/js/2.b4a04ff4.chunk.js": "/leifhacks/static/js/2.b4a04ff4.chunk.js",
+    "static/js/2.b4a04ff4.chunk.js.map": "/leifhacks/static/js/2.b4a04ff4.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.0c0b9719323c97648e1fb961a14b3ef7.js": "/leifhacks/precache-manifest.0c0b9719323c97648e1fb961a14b3ef7.js",
+    "precache-manifest.6e521a41d5cd90b0a3ca024c34eecd33.js": "/leifhacks/precache-manifest.6e521a41d5cd90b0a3ca024c34eecd33.js",
     "service-worker.js": "/leifhacks/service-worker.js",
-    "static/css/main.d423a9d7.chunk.css.map": "/leifhacks/static/css/main.d423a9d7.chunk.css.map",
-    "static/js/2.248a117b.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.248a117b.chunk.js.LICENSE.txt",
+    "static/css/main.3df3b28f.chunk.css.map": "/leifhacks/static/css/main.3df3b28f.chunk.css.map",
+    "static/js/2.b4a04ff4.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.b4a04ff4.chunk.js.LICENSE.txt",
     "static/media/Leifhacks_Logo.png": "/leifhacks/static/media/Leifhacks_Logo.3a252de7.png",
-    "static/media/Project1.png": "/leifhacks/static/media/Project1.7751cdb9.png",
+    "static/media/Project1.png": "/leifhacks/static/media/Project1.403f1b80.png",
     "static/media/Project2.png": "/leifhacks/static/media/Project2.c8233917.png",
     "static/media/Project3.png": "/leifhacks/static/media/Project3.dedbec8a.png",
     "static/media/Project_CodenameRagnarok.png": "/leifhacks/static/media/Project_CodenameRagnarok.dfdb6fd6.png",
@@ -32,14 +32,15 @@
     "static/media/linkedin-logo.png": "/leifhacks/static/media/linkedin-logo.b01a800c.png",
     "static/media/living_room.png": "/leifhacks/static/media/living_room.9a679a04.png",
     "static/media/profileImage.png": "/leifhacks/static/media/profileImage.faf73214.png",
+    "static/media/project_Earth.png": "/leifhacks/static/media/project_Earth.72f1c425.png",
     "static/media/reference_Placeholder.png": "/leifhacks/static/media/reference_Placeholder.1f0b1ae8.png",
     "static/media/signature.png": "/leifhacks/static/media/signature.bb7b489e.png",
     "static/media/treehouse.png": "/leifhacks/static/media/treehouse.d79abe83.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a5a9cab2.js",
-    "static/js/2.248a117b.chunk.js",
-    "static/css/main.d423a9d7.chunk.css",
-    "static/js/main.fc96d4b5.chunk.js"
+    "static/js/2.b4a04ff4.chunk.js",
+    "static/css/main.3df3b28f.chunk.css",
+    "static/js/main.a0ff84ac.chunk.js"
   ]
 }
