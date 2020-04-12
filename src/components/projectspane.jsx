@@ -13,7 +13,7 @@ function ProjectsPane (props) {
 
 function ProjectItem (props) {
     return <div className="ProjectItem" 
-                onMouseOver={props.onClick}
+                onClick={props.onClick}
                 style={{... { backgroundImage: `url(${props.project.src})`}}}>
         <div className="ProjectItemTitle">
             <p>{props.project.tag}</p>

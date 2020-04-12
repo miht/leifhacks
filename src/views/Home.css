@@ -40,6 +40,7 @@
     color: #385c84;
     flex-direction: row;
     justify-content: space-around;
+    width: 80%;
     margin-top: 5%;
     align-items: center;
 }
@@ -87,17 +88,17 @@
     width: 100%;
     display: grid;
     flex-direction: row;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 150px 150px 150px;
+    justify-content: space-between;
+    grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5%;
+    grid-template-rows: 125px 125px 125px;
 }
 
 .ProjectsPane > * {
-    margin: .25em .25em;
 }
 
 .ProjectItem {
-    width: 98%;
-    height: 98%;
+    width: 100%;
+    height: 95%;
     transition: transform .2s;
     position: relative;
     background-size: 100% 100%;
@@ -111,6 +112,7 @@
     width: 100%;
     left:  0%;
     color: white;
+    font-size: 12px;
 }
 
 .ProjectItemTitle p {
@@ -128,6 +130,7 @@
     text-align: end;
     margin:0%;
     height: 15%;
+    font-size: 14px;
     margin: 5%;
     color: white;
     position: absolute;
@@ -218,13 +221,12 @@
 }
 
 .SkillsPane p {
-    margin: .25em .25em;
 }
 
 .SkillItem {
-    margin: 0%;
+    margin: 0.5%;
     background-color: white;
-    padding: 2%;
+    padding: 1%;
     border-radius: 10px;
     width: fit-content;
     font-weight: 500;
@@ -252,6 +254,7 @@
 
 .ReferenceItem p {
     margin: 1%;
+    font-size: 14px;
     color: white;
 }
 
