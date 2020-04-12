@@ -2,8 +2,8 @@
 import React from 'react';
 
 function ProjectsPane (props) {
-    const projectItems = props.projects.map((item) => {
-        return <ProjectItem key={item.projectId} project={item} />;
+    const projectItems = props.projects.map((item, index) => {
+        return <ProjectItem key={item.projectId} project={item} onClick={() => props.onClick(index)} />;
     });
 
     return <div className="ProjectsPane">
@@ -12,7 +12,9 @@ function ProjectsPane (props) {
 }
 
 function ProjectItem (props) {
-    return <div className="ProjectItem" style={{... { backgroundImage: `url(${props.project.src})`}}}>
+    return <div className="ProjectItem" 
+                onMouseOver={props.onClick}
+                style={{... { backgroundImage: `url(${props.project.src})`}}}>
         <div className="ProjectItemTitle">
             <p>{props.project.tag}</p>
         </div>

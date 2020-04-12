@@ -5,8 +5,10 @@ import ImageButton from '../components/imageButton';
 import HexagonalPanel from '../components/hexagonalpanel';
 import LinkLabel from '../components/linkLabel';
 import ProjectsPane from '../components/projectspane';
+import ProjectDetailsPane from '../components/projectDetailsPane';
 import SkillsPane from '../components/skillspane';
 import ReferencesPane from '../components/referencespane';
+import { Divider } from '../components/components';
 
 
 //Images
@@ -33,23 +35,67 @@ import pImageHelios from '../images/Project_Helios.png';
 import pImageStore from '../images/Project_Store.png';
 import pImageRubeGoldberg from '../images/Project_RubeGoldberg.png';
 import pImageCodenameRagnarok from '../images/Project_CodenameRagnarok.png';
+import pImageEarth from '../images/project_Earth.png';
+
 
 //Reference images
 import rImagePlaceholder from '../images/reference_Placeholder.png';
 
 
 const projects = [
-    { title: "Guardian Symphony", tag: "Unity/Blender", src: pImageGuardianSymphony },
-    { title: "Ouija", tag: "Node.js/Blender", src: pImageOuija },
-    { title: "Global Game Jam 2019", tag: "Unity/Blender", src: pImageGGJ  },
-    { title: "Master Thesis - Fur", tag: "Unreal Engine", src: pImageThesis  },
-    { title: "Wish2Go", tag: "React Native/GraphQL", src: pImage1  },
-    { title: "Concept Art", tag: "Art", src: pImageLeif  },
-    { title: "Graphics Engine", tag: "Qt/C++", src: pImageHelios  },
-    { title: "Store", tag: "Unity/Blender", src: pImageStore  },
-    { title: "Rube Goldberg", tag: "Unity/Blender", src: pImageRubeGoldberg  },
-    { title: "Codename Ragnarok", tag: "Unity/Blender", src: pImageCodenameRagnarok  },
-    { title: "Title", tag: "Tag", src: pImage3  },
+    {   
+        title: "Guardian Symphony", tag: "Unity/Blender", src: pImageGuardianSymphony, 
+        date: "2015",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."},
+    {
+        title: "Ouija", tag: "Node.js/Blender", src: pImageOuija,
+        date: "2019",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    { 
+        title: "Global Game Jam 2019", tag: "Unity/Blender", src: pImageGGJ,
+        date: "2019",
+        description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    },
+    {
+        title: "Master Thesis - Fur", tag: "Unreal Engine", src: pImageThesis,
+        date: "2019",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    {
+        title: "Wish2Go", tag: "React Native/GraphQL", src: pImage1,
+        date: "2020",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    {
+        title: "Concept Art", tag: "Art", src: pImageLeif,
+        date: "2014-Today",
+        description: " Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+    },
+    {
+        title: "Graphics Engine", tag: "Qt/C++", src: pImageHelios,
+        date: "2018",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    {  title: "Store", tag: "Unity/Blender", src: pImageStore,
+        date: "2020-Ongoing",
+        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+    {
+        title: "Rube Goldberg", tag: "Unity/Blender", src: pImageRubeGoldberg,
+        date: "2016",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    {
+        title: "Codename Ragnarok", tag: "Unity/Blender", src: pImageCodenameRagnarok,
+        date: "On hold",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+    },
+    {
+        title: "Earth", tag: "Blender", src: pImageEarth,
+        date: "2018",
+        description: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+    },
 ];
 
 const skills = [
@@ -76,7 +122,9 @@ const tools = [
     "Visual Studio",
     "Unreal Engine",
     "Qt Creator",
-    "Photoshop"
+    "Photoshop",
+    "Android Studio",
+    "Krita"
 ];
 
 const references = [
@@ -107,7 +155,7 @@ function Home() {
         <div className="Home">
             <div className="TitlePane">
                 <img src={logo} alt="Logo" className="Logo"></img>
-                <p className="Subtitle">Doing what I like the most</p>
+                <p className="Subtitle">Doing what I like best</p>
             </div>
             <div className="ContentPane">
                 <div className="Introduction">
@@ -126,26 +174,31 @@ function Home() {
                         <p>Leif T. Sundkvist</p>
                     </div>    
                 </div>
-                <HexagonalPanel/>
                 <p className="Header">FOREWORD</p>
                 <p className="Paragraph">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                 </p>
+
+                <HexagonalPanel/>
+
                 <p className="Header">PROJECTS</p>
+                <Divider/>
+                <ProjectDetailsPane projects={projects}>
+                </ProjectDetailsPane>
+                <Divider />
+                <p className="Header">SKILLS</p>
+                <SkillsPane skills={skills}/>
+
+                <p className="Header">TOOLS</p>
+                <SkillsPane skills={tools} />
+
+                <p className="Header">REFERENCES</p>
+                <ReferencesPane references={references}/>
+            
+            
+            
             </div>
             
-            <ProjectsPane projects={projects}>
-
-            </ProjectsPane>
-
-            <p className="Header">SKILLS</p>
-            <SkillsPane skills={skills}/>
-
-            <p className="Header">TOOLS</p>
-            <SkillsPane skills={tools} />
-
-            <p className="Header">REFERENCES</p>
-            <ReferencesPane references={references}/>
 
 
             <div className="ContactPane">
@@ -155,10 +208,6 @@ function Home() {
                     <p className="ContactSectionTitle"> Get in touch </p>
                     <p className="ContactSectionLabel">+46 ____ ____ ____</p>
                     <p className="ContactSectionLabel">leif.t.sundkvist@gmail.com</p>
-                </div>
-
-                <div className="ContactSectionPane">
-                    <p className="ContactSectionTitle"> References </p>
                 </div>
 
                 <div className="ContactSectionPane">
