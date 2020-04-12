@@ -12,6 +12,7 @@ function ProjectDetailsPane(props) {
     
     function onProjectSelected(index) {
         setIndex(index);
+        props.onProjectSelected(props.projects[index].color);
         setSelectedThumbnail(props.projects[index].thumbnails[0]);
     }
 

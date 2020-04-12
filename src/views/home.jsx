@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Home.css';
 import Button from '../components/button';
 import ImageButton from '../components/imageButton';
@@ -48,13 +48,14 @@ const projects = [
         date: "2015",
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
         thumbnails: [pImageGuardianSymphony, pImage2, pImage3],
+        color: { r: 115, g: 194, b: 37 }
     },
         
         {
         title: "Ouija", tag: "Node.js/Blender", src: pImageOuija,
         date: "2019",
-        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
-            , thumbnails: [pImageOuija, pImage2, pImage3],
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.", thumbnails: [pImageOuija, pImage2, pImage3],
+        color: { r: 0, g: 15, b: 50 }
     },
     { 
         title: "Global Game Jam 2019", tag: "Unity/Blender", src: pImageGGJ,
@@ -62,12 +63,14 @@ const projects = [
         description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
         ,
         thumbnails: [pImageGGJ, pImage2, pImage3],
+        color: { r: 81, g: 48, b: 179 }
     },
     {
         title: "Master Thesis - Fur", tag: "Unreal Engine", src: pImageThesis,
         date: "2019",
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
         , thumbnails: [pImageThesis, pImage2, pImage3],
+        color: { r: 0, g: 0, b: 0 }
     },
     {
         title: "Wish2Go", tag: "React Native/GraphQL", src: pImage1,
@@ -75,6 +78,7 @@ const projects = [
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
         ,
         thumbnails: [pImage1, pImage2, pImage3],
+        color: { r: 0, g: 125, b: 125 }
     },
     {
         title: "Concept Art", tag: "Art", src: pImageLeif,
@@ -82,6 +86,7 @@ const projects = [
         description: " Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
         ,
         thumbnails: [pImageLeif, pImage2, pImage3],
+        color: { r: 50, g: 25, b: 25 }
     },
     {
         title: "Graphics Engine", tag: "Qt/C++", src: pImageHelios,
@@ -89,17 +94,20 @@ const projects = [
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
         ,
         thumbnails: [pImageHelios, pImage2, pImage3],
+        color: { r: 241, g: 147, b: 32 }
     },
     {  title: "Store", tag: "Unity/Blender", src: pImageStore,
         date: "2020-Ongoing",
         description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         thumbnails: [pImageStore, pImage2, pImage3],
+        color: { r: 201, g: 62, b: 37 }
     },
     {
         title: "Rube Goldberg", tag: "Unity/Blender", src: pImageRubeGoldberg,
         date: "2016",
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.", 
         thumbnails: [pImageRubeGoldberg, pImage2, pImage3],
+        color: { r: 255, g: 15, b: 15 }
     },
     {
         title: "Codename Ragnarok", tag: "Unity/Blender", src: pImageCodenameRagnarok,
@@ -107,12 +115,14 @@ const projects = [
         description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
         ,
         thumbnails: [pImageCodenameRagnarok, pImage2, pImage3],
+        color: { r: 60, g: 125, b: 25 }
     },
     {
         title: "Earth", tag: "Blender", src: pImageEarth,
         date: "2018",
         description: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
         , thumbnails: [pImageEarth, pImage2, pImage3],
+        color: {r: 21, g: 82, b: 150}
     },
 ];
 
@@ -167,78 +177,81 @@ const references = [
 ];
 
 function Home() {
-    return (
-        <div className="Home">
-            <div className="TitlePane">
-                <img src={logo} alt="Logo" className="Logo"></img>
-                <p className="Subtitle">Doing what I like best</p>
-            </div>
-            <div className="ContentPane">
-                <div className="Introduction">
-                    <img className="ProfilePicture" src={profileImage}/>
-                    <div>
-                        <p>
-                        Hi, and thanks for stopping by!
-                        </p>
-                        <p>
-                            Learn more about me by reading about my projects.
-                            You'll find my contact details at the bottom of the page.
-                        </p>
-                        <p>Enjoy!</p>
-
-                        <img className="Signature" src={signature} />
-                        <p>Leif T. Sundkvist</p>
-                    </div>    
+    const [backgroundColor, setBackgroundColor] = useState({r: 81, g: 148, b: 194})
+    
+        return (
+            <div className="Home" style={{
+                backgroundColor: `rgba(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b}, 1)`}}>
+                <div className="TitlePane">
+                    <img src={logo} alt="Logo" className="Logo"></img>
+                    <p className="Subtitle">Doing what I like best</p>
                 </div>
-                <p className="Header">FOREWORD</p>
-                <p className="Paragraph">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                </p>
-
-                <HexagonalPanel/>
-
-                <p className="Header">PROJECTS</p>
-                <Divider/>
-                <ProjectDetailsPane projects={projects}>
-                </ProjectDetailsPane>
-                <Divider />
-                <p className="Header">SKILLS</p>
-                <SkillsPane skills={skills}/>
-
-                <p className="Header">TOOLS</p>
-                <SkillsPane skills={tools} />
-
-                <p className="Header">REFERENCES</p>
-                <ReferencesPane references={references}/>
-            
-            
-            
-            </div>
-            
-
-
-            <div className="ContactPane">
-
-
-                <div className="ContactSectionPane">
-                    <p className="ContactSectionTitle"> Get in touch </p>
-                    <p className="ContactSectionLabel">+46 ____ ____ ____</p>
-                    <p className="ContactSectionLabel">leif.t.sundkvist@gmail.com</p>
+                <div className="ContentPane">
+                    <div className="Introduction">
+                        <img className="ProfilePicture" src={profileImage}/>
+                        <div>
+                            <p>
+                            Hi, and thanks for stopping by!
+                            </p>
+                            <p>
+                                Learn more about me by reading about my projects.
+                                You'll find my contact details at the bottom of the page.
+                            </p>
+                            <p>Enjoy!</p>
+    
+                            <img className="Signature" src={signature} />
+                            <p>Leif T. Sundkvist</p>
+                        </div>    
+                    </div>
+                    <p className="Header">FOREWORD</p>
+                    <p className="Paragraph">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    </p>
+    
+                    <HexagonalPanel/>
+    
+                    <p className="Header">PROJECTS</p>
+                    <Divider/>
+                    <ProjectDetailsPane projects={projects} onProjectSelected={(col) => setBackgroundColor(col)}>
+                    </ProjectDetailsPane>
+                    <Divider />
+                    <p className="Header">SKILLS</p>
+                    <SkillsPane skills={skills}/>
+    
+                    <p className="Header">TOOLS</p>
+                    <SkillsPane skills={tools} />
+    
+                    <p className="Header">REFERENCES</p>
+                    <ReferencesPane references={references}/>
+                
+                
+                
                 </div>
-
-                <div className="ContactSectionPane">
-                    <p className="ContactSectionTitle"> Look deeper </p>
-                    <LinkLabel src={artstationIcon} content="ArtStation"></LinkLabel>
-                    <LinkLabel src={linkedinIcon} content="LinkedIn"></LinkLabel>
-                    <LinkLabel src={githubIcon} content="GitHub"></LinkLabel>
-                    <button className="BuyMeACoffeeButton" style={{ ... {backgroundImage: `url(${buyMeACoffeeIcon})`} }}
-                        onClick={() => window.open('https://www.buymeacoffee.com/DOXnKhm')}
-                    />
-
+                
+    
+    
+                <div className="ContactPane">
+    
+    
+                    <div className="ContactSectionPane">
+                        <p className="ContactSectionTitle"> Get in touch </p>
+                        <p className="ContactSectionLabel">+46 ____ ____ ____</p>
+                        <p className="ContactSectionLabel">leif.t.sundkvist@gmail.com</p>
+                    </div>
+    
+                    <div className="ContactSectionPane">
+                        <p className="ContactSectionTitle"> Look deeper </p>
+                        <LinkLabel src={artstationIcon} content="ArtStation"></LinkLabel>
+                        <LinkLabel src={linkedinIcon} content="LinkedIn"></LinkLabel>
+                        <LinkLabel src={githubIcon} content="GitHub"></LinkLabel>
+                        <button className="BuyMeACoffeeButton" style={{ ... {backgroundImage: `url(${buyMeACoffeeIcon})`} }}
+                            onClick={() => window.open('https://www.buymeacoffee.com/DOXnKhm')}
+                        />
+    
+                    </div>
                 </div>
             </div>
-        </div>
-    );
+        );
 }
 
 export default Home;
