@@ -19,4 +19,4 @@ function AboutPage(props) {
     );
 }
 
-export default AboutPage;
+    export default AboutPage;

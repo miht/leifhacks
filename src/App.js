@@ -15,14 +15,17 @@ function App() {
   return (
     <Router>
       <div className="Root">
+                <div className = "AlertBar" >
+                  <p>Important information! This website is currently experiencing 404 issues caused by refreshing. I am currently investigating this problem; thank you for your patience.</p>
+                </div>
           <Switch>
-            <Route exact path = "/" >
+            <Route exact path = "/leifhacks/" >
               <Home />
             </Route> <
-            Route path = "/projects" >
+            Route path = "/leifhacks/projects" >
               <Projects />
             </Route> <
-            Route path = "/about" >
+            Route path = "/leifhacks/about" >
               <AboutPage />
             </Route> 
             </Switch>

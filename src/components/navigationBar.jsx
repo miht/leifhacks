@@ -17,9 +17,9 @@ function NavigationBar(props) {
             <img src={logo} alt="Logo" className="Logo"></img>
             <PageHeader title={props.title} />
             <div className="NavigationButtonPanel">
-                <LinkButton to="/" title="Home"></LinkButton>
-                <LinkButton to="/projects" title="Projects"></LinkButton>
-                <LinkButton to="/about" title="About me"></LinkButton>
+                <LinkButton to="/leifhacks" title="Home"></LinkButton>
+                <LinkButton to="/leifhacks/projects" title="Projects"></LinkButton>
+                <LinkButton to="/leifhacks/about" title="About me"></LinkButton>
             </div>
         </div>
         <Divider></Divider>
