@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.Root {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(0, 0, 0, 0) 75%);
+  background-color:  rgb(81, 148, 194 );
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

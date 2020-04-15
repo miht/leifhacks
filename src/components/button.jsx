@@ -1,10 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './components.css';
 
-class Button extends React.Component {
-    render() {
-        return <button className="Button">{this.props.title}</button>;
-    }
+function LinkButton(props) {
+    return <Link to={props.to} className="Button">{props.title}</Link>;
 }
 
-export default Button;
+export default LinkButton;

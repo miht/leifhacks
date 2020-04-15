@@ -1,4 +1,6 @@
 import React from 'react';
+import { SectionHeader } from './components';
+import ProjectsPane from './projectspane';
 
 function SkillsPane (props) {
 
@@ -9,7 +11,10 @@ function SkillsPane (props) {
     });
 
     return <div className="SkillsPane">
-        {skillItems}
+        <SectionHeader title={props.title}/>
+        <div className="SkillsLayout">
+            {skillItems}
+        </div>
     </div>;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { SectionHeader } from './components';
 
 function ReferencesPane(props) {
 
@@ -28,6 +29,7 @@ function ReferencesPane(props) {
     });
 
     return <div className="ReferencesPane">
+        <SectionHeader title="References"/>
         {referenceItems}
     </div>;
 }
