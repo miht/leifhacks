@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/leifhacks/static/css/main.af3c5875.chunk.css",
-    "main.js": "/leifhacks/static/js/main.f72c79cf.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.f72c79cf.chunk.js.map",
+    "main.js": "/leifhacks/static/js/main.b96d1042.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.b96d1042.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
     "static/js/2.8347cec8.chunk.js": "/leifhacks/static/js/2.8347cec8.chunk.js",
     "static/js/2.8347cec8.chunk.js.map": "/leifhacks/static/js/2.8347cec8.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.13cdeeb27ff75d86b5a3a77e1de93a12.js": "/leifhacks/precache-manifest.13cdeeb27ff75d86b5a3a77e1de93a12.js",
+    "precache-manifest.2cf35c962e4990cc61c4a411b0cec6d4.js": "/leifhacks/precache-manifest.2cf35c962e4990cc61c4a411b0cec6d4.js",
     "service-worker.js": "/leifhacks/service-worker.js",
     "static/css/main.af3c5875.chunk.css.map": "/leifhacks/static/css/main.af3c5875.chunk.css.map",
     "static/js/2.8347cec8.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.8347cec8.chunk.js.LICENSE.txt",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.a5a9cab2.js",
     "static/js/2.8347cec8.chunk.js",
     "static/css/main.af3c5875.chunk.css",
-    "static/js/main.f72c79cf.chunk.js"
+    "static/js/main.b96d1042.chunk.js"
   ]
 }
