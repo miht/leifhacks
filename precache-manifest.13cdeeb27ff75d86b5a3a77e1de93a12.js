@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c17c8e0ffc5bf989d9c1208dfebe823e",
+    "revision": "33a7e33d7c281965711656783ec7a64c",
     "url": "/leifhacks/index.html"
   },
   {
-    "revision": "1626d3c409869bb9e77b",
-    "url": "/leifhacks/static/css/main.3f14a484.chunk.css"
+    "revision": "bd30e476ac9d8f889354",
+    "url": "/leifhacks/static/css/main.af3c5875.chunk.css"
   },
   {
     "revision": "58b358e7e992ce0190e5",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leifhacks/static/js/2.8347cec8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1626d3c409869bb9e77b",
-    "url": "/leifhacks/static/js/main.6cfcf078.chunk.js"
+    "revision": "bd30e476ac9d8f889354",
+    "url": "/leifhacks/static/js/main.f72c79cf.chunk.js"
   },
   {
     "revision": "f829987a47b634f2a715",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2089e477037b2f52225d35e03b56738e",
     "url": "/leifhacks/static/media/Project_Thesis.2089e477.png"
+  },
+  {
+    "revision": "2bc77d5136e32e3fe74d64d83238d2f2",
+    "url": "/leifhacks/static/media/alertBar.2bc77d51.png"
   },
   {
     "revision": "ef8780fa6491bd5e73f4532c030ced13",

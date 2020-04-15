@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/leifhacks/static/css/main.3f14a484.chunk.css",
-    "main.js": "/leifhacks/static/js/main.6cfcf078.chunk.js",
-    "main.js.map": "/leifhacks/static/js/main.6cfcf078.chunk.js.map",
+    "main.css": "/leifhacks/static/css/main.af3c5875.chunk.css",
+    "main.js": "/leifhacks/static/js/main.f72c79cf.chunk.js",
+    "main.js.map": "/leifhacks/static/js/main.f72c79cf.chunk.js.map",
     "runtime-main.js": "/leifhacks/static/js/runtime-main.a5a9cab2.js",
     "runtime-main.js.map": "/leifhacks/static/js/runtime-main.a5a9cab2.js.map",
     "static/js/2.8347cec8.chunk.js": "/leifhacks/static/js/2.8347cec8.chunk.js",
     "static/js/2.8347cec8.chunk.js.map": "/leifhacks/static/js/2.8347cec8.chunk.js.map",
     "index.html": "/leifhacks/index.html",
-    "precache-manifest.933cc077adb2ee11d3a0e39dc2d35dcf.js": "/leifhacks/precache-manifest.933cc077adb2ee11d3a0e39dc2d35dcf.js",
+    "precache-manifest.13cdeeb27ff75d86b5a3a77e1de93a12.js": "/leifhacks/precache-manifest.13cdeeb27ff75d86b5a3a77e1de93a12.js",
     "service-worker.js": "/leifhacks/service-worker.js",
-    "static/css/main.3f14a484.chunk.css.map": "/leifhacks/static/css/main.3f14a484.chunk.css.map",
+    "static/css/main.af3c5875.chunk.css.map": "/leifhacks/static/css/main.af3c5875.chunk.css.map",
     "static/js/2.8347cec8.chunk.js.LICENSE.txt": "/leifhacks/static/js/2.8347cec8.chunk.js.LICENSE.txt",
     "static/media/Leifhacks_Logo.png": "/leifhacks/static/media/Leifhacks_Logo.3a252de7.png",
     "static/media/Project1.png": "/leifhacks/static/media/Project1.403f1b80.png",
@@ -25,6 +25,7 @@
     "static/media/Project_RubeGoldberg.png": "/leifhacks/static/media/Project_RubeGoldberg.2144402b.png",
     "static/media/Project_Store.png": "/leifhacks/static/media/Project_Store.a2606fe8.png",
     "static/media/Project_Thesis.png": "/leifhacks/static/media/Project_Thesis.2089e477.png",
+    "static/media/components.css": "/leifhacks/static/media/alertBar.2bc77d51.png",
     "static/media/artstation-logo.png": "/leifhacks/static/media/artstation-logo.ef8780fa.png",
     "static/media/buymeacoffee.png": "/leifhacks/static/media/buymeacoffee.486093e8.png",
     "static/media/github-logo.png": "/leifhacks/static/media/github-logo.d7243fe7.png",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5a9cab2.js",
     "static/js/2.8347cec8.chunk.js",
-    "static/css/main.3f14a484.chunk.css",
-    "static/js/main.6cfcf078.chunk.js"
+    "static/css/main.af3c5875.chunk.css",
+    "static/js/main.f72c79cf.chunk.js"
   ]
 }
